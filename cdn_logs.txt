@@ -1,0 +1,47 @@
+[2026-03-23 22:46:49,354] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.158.139.141:5000
+[2026-03-23 22:46:49,355] [INFO] [33mPress CTRL+C to quit[0m
+[2026-03-23 22:46:59,488] [ERROR] [ERROR] Failed to fetch /data1: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /data1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231A1F7B770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2026-03-23 22:46:59,508] [INFO] 127.0.0.1 - - [23/Mar/2026 22:46:59] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:46:59,529] [INFO] 127.0.0.1 - - [23/Mar/2026 22:46:59] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:46:59,544] [INFO] 127.0.0.1 - - [23/Mar/2026 22:46:59] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:46:59,558] [INFO] 127.0.0.1 - - [23/Mar/2026 22:46:59] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:46:59,565] [INFO] 127.0.0.1 - - [23/Mar/2026 22:46:59] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:05,501] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:05] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:05,507] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:05] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:05,514] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:05] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:05,523] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:05] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:05,528] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:05] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:47:08,576] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data2
+[2026-03-23 22:47:08,577] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:08] "[31m[1mGET /data2 HTTP/1.1[0m" 429 -
+[2026-03-23 22:47:08,577] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data3
+[2026-03-23 22:47:08,579] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:08] "[31m[1mGET /data3 HTTP/1.1[0m" 429 -
+[2026-03-23 22:47:08,580] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data1
+[2026-03-23 22:47:08,582] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data1
+[2026-03-23 22:47:08,583] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:08] "[31m[1mGET /data1 HTTP/1.1[0m" 429 -
+[2026-03-23 22:47:08,584] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data1
+[2026-03-23 22:47:08,585] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:08] "[31m[1mGET /data1 HTTP/1.1[0m" 429 -
+[2026-03-23 22:47:08,588] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:08] "[31m[1mGET /data1 HTTP/1.1[0m" 429 -
+[2026-03-23 22:47:10,620] [WARNING] [RATE LIMIT] 127.0.0.1 exceeded rate limit for /data1
+[2026-03-23 22:47:10,621] [INFO] 127.0.0.1 - - [23/Mar/2026 22:47:10] "[31m[1mGET /data1 HTTP/1.1[0m" 429 -
+[2026-03-23 22:50:06,681] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.158.139.141:5000
+[2026-03-23 22:50:06,682] [INFO] [33mPress CTRL+C to quit[0m
+[2026-03-23 22:50:19,980] [ERROR] [ERROR] Failed to fetch /data1: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /data1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022264B5B770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2026-03-23 22:50:19,986] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:19] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:20,010] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:20] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:20,027] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:20] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:20,041] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:20] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:20,050] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:20] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:23,095] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:23] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:23,104] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:23] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:23,116] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:23] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:27,188] [ERROR] [ERROR] Failed to fetch /data2: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /data2 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022264B71BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2026-03-23 22:50:27,193] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:27] "[35m[1mGET /data2 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:27,204] [ERROR] [ERROR] Failed to fetch /data3: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /data3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022264B72E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2026-03-23 22:50:27,213] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:27] "[35m[1mGET /data3 HTTP/1.1[0m" 500 -
+[2026-03-23 22:50:29,264] [INFO] 127.0.0.1 - - [23/Mar/2026 22:50:29] "[35m[1mGET /data1 HTTP/1.1[0m" 500 -

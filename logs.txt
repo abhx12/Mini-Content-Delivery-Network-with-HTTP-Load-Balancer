@@ -1,0 +1,1027 @@
+[22:44:50] [CACHE MISS] /data → Starting fetch
+[22:44:50] [FORWARDED] /data → Load Balancer
+[22:44:54] [RESPONSE RECEIVED] /data ← Backend
+[22:44:54] [CACHED] /data (expires in 15s)
+[22:44:54] [RESPONSE TIME] /data: 3.55s
+[22:45:14] [CACHE MISS] /data → Starting fetch
+[22:45:14] [FORWARDED] /data → Load Balancer
+[22:45:18] [RESPONSE RECEIVED] /data ← Backend
+[22:45:18] [CACHED] /data (expires in 15s)
+[22:45:18] [RESPONSE TIME] /data: 3.54s
+[22:45:22] [CACHE HIT] /data → Served from cache
+[22:45:22] [RESPONSE TIME] /data: 0.00s
+[22:45:24] [CACHE HIT] /data → Served from cache
+[22:45:24] [RESPONSE TIME] /data: 0.00s
+[22:45:24] [CACHE HIT] /data → Served from cache
+[22:45:24] [RESPONSE TIME] /data: 0.00s
+[22:45:24] [CACHE HIT] /data → Served from cache
+[22:45:24] [RESPONSE TIME] /data: 0.02s
+[22:45:24] [CACHE HIT] /data → Served from cache
+[22:45:24] [RESPONSE TIME] /data: 0.03s
+[22:45:24] [CACHE HIT] /data → Served from cache
+[22:45:24] [RESPONSE TIME] /data: 0.03s
+[22:45:26] [CACHE MISS] /image0 → Starting fetch
+[22:45:26] [FORWARDED] /image0 → Load Balancer
+[22:45:26] [CACHE MISS] /image1 → Starting fetch
+[22:45:26] [FORWARDED] /image1 → Load Balancer
+[22:45:27] [CACHE MISS] /image2 → Starting fetch
+[22:45:27] [FORWARDED] /image2 → Load Balancer
+[22:45:30] [RESPONSE RECEIVED] /image0 ← Backend
+[22:45:30] [CACHED] /image0 (expires in 15s)
+[22:45:30] [RESPONSE TIME] /image0: 3.56s
+[22:45:30] [RESPONSE RECEIVED] /image1 ← Backend
+[22:45:30] [CACHED] /image1 (expires in 15s)
+[22:45:30] [RESPONSE TIME] /image1: 3.54s
+[22:45:30] [RESPONSE RECEIVED] /image2 ← Backend
+[22:45:30] [CACHED] /image2 (expires in 15s)
+[22:45:30] [RESPONSE TIME] /image2: 3.56s
+[21:33:54] [CACHE MISS] /data -> Starting fetch
+[21:33:54] [FORWARDED] /data -> Load Balancer
+[21:33:58] [RESPONSE RECEIVED] /data <- Backend
+[21:33:58] [CACHED] /data (expires in 15s)
+[21:33:58] [RESPONSE TIME] /data: 3.54s
+[21:34:02] [CACHE HIT] /data -> Served from cache
+[21:34:02] [RESPONSE TIME] /data: 0.00s
+[21:34:04] [CACHE HIT] /data -> Served from cache
+[21:34:04] [RESPONSE TIME] /data: 0.00s
+[21:34:04] [CACHE HIT] /data -> Served from cache
+[21:34:04] [RESPONSE TIME] /data: 0.00s
+[21:34:04] [CACHE HIT] /data -> Served from cache
+[21:34:04] [RESPONSE TIME] /data: 0.00s
+[21:34:04] [CACHE HIT] /data -> Served from cache
+[21:34:04] [RESPONSE TIME] /data: 0.00s
+[21:34:04] [CACHE HIT] /data -> Served from cache
+[21:34:04] [RESPONSE TIME] /data: 0.01s
+[21:34:06] [CACHE MISS] /image0 -> Starting fetch
+[21:34:06] [FORWARDED] /image0 -> Load Balancer
+[21:34:06] [CACHE MISS] /image1 -> Starting fetch
+[21:34:06] [FORWARDED] /image1 -> Load Balancer
+[21:34:07] [CACHE MISS] /image2 -> Starting fetch
+[21:34:07] [FORWARDED] /image2 -> Load Balancer
+[21:34:09] [RESPONSE RECEIVED] /image0 <- Backend
+[21:34:09] [CACHED] /image0 (expires in 15s)
+[21:34:09] [RESPONSE TIME] /image0: 3.53s
+[21:34:10] [RESPONSE RECEIVED] /image1 <- Backend
+[21:34:10] [CACHED] /image1 (expires in 15s)
+[21:34:10] [RESPONSE TIME] /image1: 3.53s
+[21:34:10] [RESPONSE RECEIVED] /image2 <- Backend
+[21:34:10] [CACHED] /image2 (expires in 15s)
+[21:34:10] [RESPONSE TIME] /image2: 3.52s
+[21:34:49] [RATE LIMIT] 127.0.0.1 exceeded
+[21:34:52] [RATE LIMIT] 127.0.0.1 exceeded
+[21:34:55] [CACHE MISS] /data -> Starting fetch
+[21:34:55] [FORWARDED] /data -> Load Balancer
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:55] [WAITING] /data -> Already being fetched
+[21:34:58] [RESPONSE RECEIVED] /data <- Backend
+[21:34:58] [CACHED] /data (expires in 15s)
+[21:34:58] [RESPONSE TIME] /data: 3.57s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.54s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.50s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.44s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.38s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.37s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.32s
+[21:34:58] [CACHE HIT after wait] /data
+[21:34:58] [RESPONSE TIME] /data: 3.26s
+[21:35:00] [CACHE MISS] /img0 -> Starting fetch
+[21:35:00] [FORWARDED] /img0 -> Load Balancer
+[21:35:01] [CACHE MISS] /img1 -> Starting fetch
+[21:35:01] [FORWARDED] /img1 -> Load Balancer
+[21:35:01] [RATE LIMIT] 127.0.0.1 exceeded
+[21:35:04] [RESPONSE RECEIVED] /img0 <- Backend
+[21:35:04] [CACHED] /img0 (expires in 15s)
+[21:35:04] [RESPONSE TIME] /img0: 3.56s
+[21:35:04] [RESPONSE RECEIVED] /img1 <- Backend
+[21:35:04] [CACHED] /img1 (expires in 15s)
+[21:35:04] [RESPONSE TIME] /img1: 3.53s
+[21:37:42] [CACHE MISS] /data -> Starting fetch
+[21:37:42] [FORWARDED] /data -> Load Balancer
+[21:37:45] [RESPONSE RECEIVED] /data <- Backend
+[21:37:45] [CACHED] /data (expires in 15s)
+[21:37:45] [RESPONSE TIME] /data: 3.05s
+[21:37:48] [CACHE HIT] /data -> Served from cache
+[21:37:48] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:50] [CACHE HIT] /data -> Served from cache
+[21:37:50] [RESPONSE TIME] /data: 0.00s
+[21:37:51] [CACHE HIT] /data -> Served from cache
+[21:37:51] [RESPONSE TIME] /data: 0.00s
+[21:37:51] [CACHE HIT] /data -> Served from cache
+[21:37:51] [RESPONSE TIME] /data: 0.00s
+[21:37:53] [RATE LIMIT] 127.0.0.1 exceeded
+[21:37:53] [RATE LIMIT] 127.0.0.1 exceeded
+[21:37:53] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:17] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:21] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:23] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:25] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:26] [RATE LIMIT] 127.0.0.1 exceeded
+[21:38:26] [RATE LIMIT] 127.0.0.1 exceeded
+[21:39:22] [CACHE MISS] /data -> Starting fetch
+[21:39:22] [FORWARDED] /data -> Load Balancer
+[21:39:25] [RESPONSE RECEIVED] /data <- Backend
+[21:39:25] [CACHED] /data (expires in 15s)
+[21:39:25] [RESPONSE TIME] /data: 3.05s
+[21:39:28] [CACHE HIT] /data -> Served from cache
+[21:39:28] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:31] [CACHE HIT] /data -> Served from cache
+[21:39:31] [RESPONSE TIME] /data: 0.00s
+[21:39:33] [CACHE MISS] /img0 -> Starting fetch
+[21:39:33] [FORWARDED] /img0 -> Load Balancer
+[21:39:34] [CACHE MISS] /img1 -> Starting fetch
+[21:39:34] [FORWARDED] /img1 -> Load Balancer
+[21:39:34] [CACHE MISS] /img2 -> Starting fetch
+[21:39:34] [FORWARDED] /img2 -> Load Balancer
+[21:39:36] [RESPONSE RECEIVED] /img0 <- Backend
+[21:39:36] [CACHED] /img0 (expires in 15s)
+[21:39:36] [RESPONSE TIME] /img0: 3.03s
+[21:39:37] [RESPONSE RECEIVED] /img1 <- Backend
+[21:39:37] [CACHED] /img1 (expires in 15s)
+[21:39:37] [RESPONSE TIME] /img1: 3.04s
+[21:39:37] [RESPONSE RECEIVED] /img2 <- Backend
+[21:39:37] [CACHED] /img2 (expires in 15s)
+[21:39:37] [RESPONSE TIME] /img2: 3.04s
+22:58:01  [CDN] Mini CDN started on http://0.0.0.0:9000
+22:58:01  [CDN] Cache TTL: 30s | Rate limit: 20 req/10s
+22:58:01  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+22:58:12  [SERVED]     /data | Total round-trip: 3.876s
+22:58:12  [SERVED]     /data | Total round-trip: 3.875s
+22:58:12  [SERVED]     /data | Total round-trip: 3.882s
+22:58:12  [SERVED]     /data | Total round-trip: 3.885s
+22:58:12  [SERVED]     /data | Total round-trip: 3.894s
+22:58:24  [SERVED]     /page6 | Total round-trip: 3.430s
+22:58:24  [SERVED]     /page1 | Total round-trip: 3.478s
+22:58:25  [SERVED]     /page4 | Total round-trip: 3.743s
+22:58:25  [SERVED]     /page3 | Total round-trip: 3.814s
+22:58:25  [SERVED]     /page5 | Total round-trip: 3.980s
+22:58:25  [SERVED]     /page2 | Total round-trip: 4.028s
+22:58:31  [SERVED]     /etc/passwd | Total round-trip: 3.763s
+22:58:36  [SERVED]     /valid/path | Total round-trip: 3.789s
+22:58:50  [CDN] Shutting down...
+23:02:38  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:02:38  [CDN] Cache TTL: 30s | Rate limit: 20 req/10s
+23:02:38  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:02:49  [SERVED]     /data | Total round-trip: 3.484s
+23:02:49  [SERVED]     /data | Total round-trip: 3.489s
+23:02:49  [SERVED]     /data | Total round-trip: 3.490s
+23:02:49  [SERVED]     /data | Total round-trip: 3.499s
+23:02:49  [SERVED]     /data | Total round-trip: 3.501s
+23:03:02  [SERVED]     /page6 | Total round-trip: 3.378s
+23:03:02  [SERVED]     /page3 | Total round-trip: 3.420s
+23:03:02  [SERVED]     /page1 | Total round-trip: 3.533s
+23:03:02  [SERVED]     /page5 | Total round-trip: 3.633s
+23:03:02  [SERVED]     /page2 | Total round-trip: 3.760s
+23:03:02  [SERVED]     /page4 | Total round-trip: 3.871s
+23:03:08  [SERVED]     /etc/passwd | Total round-trip: 3.904s
+23:03:10  [BLOCKED] 127.0.0.1 requested invalid path: /bad path with spaces
+23:03:12  [BLOCKED] 127.0.0.1 requested invalid path: /<script>alert(1)</script>
+23:03:17  [SERVED]     /valid/path | Total round-trip: 3.123s
+23:07:40  [CDN] Shutting down...
+23:07:53  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:07:53  [CDN] Cache TTL: 30s | Rate limit: 20 req/10s
+23:07:53  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:07:59  [CACHE MISS] /data -> Not in cache
+23:07:59  [FORWARDED] /data -> Sending to Load Balancer
+23:07:59  [CACHE MISS] /data -> Not in cache
+23:07:59  [WAITING]   /data -> Already being fetched, queuing...
+23:07:59  [CACHE MISS] /data -> Not in cache
+23:07:59  [WAITING]   /data -> Already being fetched, queuing...
+23:07:59  [CACHE MISS] /data -> Not in cache
+23:07:59  [WAITING]   /data -> Already being fetched, queuing...
+23:07:59  [CACHE MISS] /data -> Not in cache
+23:07:59  [WAITING]   /data -> Already being fetched, queuing...
+23:08:02  [RESPONSE RECEIVED] /data <- Server-8001 | 3.272s
+23:08:02  [SERVED]     /data | Total round-trip: 3.274s
+23:08:02  [WAITING]   /data -> Got coalesced response from cache
+23:08:02  [WAITING]   /data -> Got coalesced response from cache
+23:08:02  [WAITING]   /data -> Got coalesced response from cache
+23:08:02  [WAITING]   /data -> Got coalesced response from cache
+23:08:02  [SERVED]     /data | Total round-trip: 3.274s
+23:08:02  [SERVED]     /data | Total round-trip: 3.272s
+23:08:02  [SERVED]     /data | Total round-trip: 3.271s
+23:08:02  [SERVED]     /data | Total round-trip: 3.273s
+23:08:05  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:08:07  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:08:09  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:08:11  [CACHE MISS] /page3 -> Not in cache
+23:08:11  [FORWARDED] /page3 -> Sending to Load Balancer
+23:08:11  [CACHE MISS] /page2 -> Not in cache
+23:08:11  [FORWARDED] /page2 -> Sending to Load Balancer
+23:08:11  [CACHE MISS] /page1 -> Not in cache
+23:08:11  [FORWARDED] /page1 -> Sending to Load Balancer
+23:08:11  [CACHE MISS] /page5 -> Not in cache
+23:08:11  [CACHE MISS] /page6 -> Not in cache
+23:08:11  [FORWARDED] /page5 -> Sending to Load Balancer
+23:08:11  [CACHE MISS] /page4 -> Not in cache
+23:08:11  [FORWARDED] /page6 -> Sending to Load Balancer
+23:08:11  [FORWARDED] /page4 -> Sending to Load Balancer
+23:08:14  [RESPONSE RECEIVED] /page2 <- Server-8003 | 3.138s
+23:08:14  [SERVED]     /page2 | Total round-trip: 3.141s
+23:08:14  [RESPONSE RECEIVED] /page1 <- Server-8001 | 3.267s
+23:08:14  [SERVED]     /page1 | Total round-trip: 3.278s
+23:08:14  [RESPONSE RECEIVED] /page6 <- Server-8003 | 3.482s
+23:08:14  [SERVED]     /page6 | Total round-trip: 3.487s
+23:08:14  [RESPONSE RECEIVED] /page5 <- Server-8002 | 3.515s
+23:08:14  [SERVED]     /page5 | Total round-trip: 3.520s
+23:08:15  [RESPONSE RECEIVED] /page4 <- Server-8001 | 3.671s
+23:08:15  [SERVED]     /page4 | Total round-trip: 3.675s
+23:08:15  [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.830s
+23:08:15  [SERVED]     /page3 | Total round-trip: 3.833s
+23:08:17  [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:08:19  [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:08:21  [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:08:23  [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:08:25  [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:08:27  [CACHE MISS] /valid/path -> Not in cache
+23:08:27  [FORWARDED] /valid/path -> Sending to Load Balancer
+23:08:31  [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.775s
+23:08:31  [SERVED]     /valid/path | Total round-trip: 3.779s
+23:16:54  [CDN] Shutting down...
+23:16:56  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:16:56  [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:16:56  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:17:05  [CACHE MISS] /data -> Not in cache
+23:17:05  [FORWARDED] /data -> Sending to Load Balancer
+23:17:05  [CACHE MISS] /data -> Not in cache
+23:17:05  [WAITING]   /data -> Already being fetched, queuing...
+23:17:05  [CACHE MISS] /data -> Not in cache
+23:17:05  [WAITING]   /data -> Already being fetched, queuing...
+23:17:05  [CACHE MISS] /data -> Not in cache
+23:17:05  [WAITING]   /data -> Already being fetched, queuing...
+23:17:05  [CACHE MISS] /data -> Not in cache
+23:17:05  [WAITING]   /data -> Already being fetched, queuing...
+23:17:09  [RESPONSE RECEIVED] /data <- Server-8001 | 3.878s
+23:17:09  [SERVED]     /data | Total round-trip: 3.881s
+23:17:09  [WAITING]   /data -> Got coalesced response from cache
+23:17:09  [SERVED]     /data | Total round-trip: 3.862s
+23:17:09  [WAITING]   /data -> Got coalesced response from cache
+23:17:09  [WAITING]   /data -> Got coalesced response from cache
+23:17:09  [WAITING]   /data -> Got coalesced response from cache
+23:17:09  [SERVED]     /data | Total round-trip: 3.881s
+23:17:09  [SERVED]     /data | Total round-trip: 3.881s
+23:17:09  [SERVED]     /data | Total round-trip: 3.885s
+23:17:12  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:17:14  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:17:16  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:17:18  [CACHE MISS] /page3 -> Not in cache
+23:17:18  [CACHE MISS] /page2 -> Not in cache
+23:17:18  [CACHE MISS] /page1 -> Not in cache
+23:17:18  [FORWARDED] /page3 -> Sending to Load Balancer
+23:17:18  [FORWARDED] /page2 -> Sending to Load Balancer
+23:17:18  [CACHE MISS] /page4 -> Not in cache
+23:17:18  [FORWARDED] /page1 -> Sending to Load Balancer
+23:17:18  [FORWARDED] /page4 -> Sending to Load Balancer
+23:17:18  [CACHE MISS] /page6 -> Not in cache
+23:17:18  [CACHE MISS] /page5 -> Not in cache
+23:17:18  [FORWARDED] /page6 -> Sending to Load Balancer
+23:17:18  [FORWARDED] /page5 -> Sending to Load Balancer
+23:17:21  [RESPONSE RECEIVED] /page5 <- Server-8001 | 3.159s
+23:17:21  [SERVED]     /page5 | Total round-trip: 3.164s
+23:17:21  [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.243s
+23:17:21  [SERVED]     /page3 | Total round-trip: 3.247s
+23:17:21  [RESPONSE RECEIVED] /page2 <- Server-8003 | 3.349s
+23:17:21  [SERVED]     /page2 | Total round-trip: 3.352s
+23:17:22  [RESPONSE RECEIVED] /page6 <- Server-8003 | 3.729s
+23:17:22  [SERVED]     /page6 | Total round-trip: 3.737s
+23:17:22  [RESPONSE RECEIVED] /page1 <- Server-8001 | 3.884s
+23:17:22  [SERVED]     /page1 | Total round-trip: 3.892s
+23:17:22  [RESPONSE RECEIVED] /page4 <- Server-8002 | 3.989s
+23:17:22  [SERVED]     /page4 | Total round-trip: 3.998s
+23:17:24  [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:17:26  [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:17:28  [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:17:30  [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:17:32  [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:17:34  [CACHE MISS] /valid/path -> Not in cache
+23:17:34  [FORWARDED] /valid/path -> Sending to Load Balancer
+23:17:38  [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.525s
+23:17:38  [SERVED]     /valid/path | Total round-trip: 3.526s
+23:17:48  [CDN] Shutting down...
+23:17:58  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:17:58  [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:17:58  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:18:04  [CACHE MISS] /data -> Not in cache
+23:18:04  [FORWARDED] /data -> Sending to Load Balancer
+23:18:04  [CACHE MISS] /data -> Not in cache
+23:18:04  [WAITING]   /data -> Already being fetched, queuing...
+23:18:04  [CACHE MISS] /data -> Not in cache
+23:18:04  [WAITING]   /data -> Already being fetched, queuing...
+23:18:04  [CACHE MISS] /data -> Not in cache
+23:18:04  [WAITING]   /data -> Already being fetched, queuing...
+23:18:04  [CACHE MISS] /data -> Not in cache
+23:18:04  [WAITING]   /data -> Already being fetched, queuing...
+23:18:08  [RESPONSE RECEIVED] /data <- Server-8001 | 3.987s
+23:18:08  [SERVED]     /data | Total round-trip: 3.989s
+23:18:08  [WAITING]   /data -> Got coalesced response from cache
+23:18:08  [WAITING]   /data -> Got coalesced response from cache
+23:18:08  [WAITING]   /data -> Got coalesced response from cache
+23:18:08  [WAITING]   /data -> Got coalesced response from cache
+23:18:08  [SERVED]     /data | Total round-trip: 3.987s
+23:18:08  [SERVED]     /data | Total round-trip: 3.985s
+23:18:08  [SERVED]     /data | Total round-trip: 3.984s
+23:18:08  [SERVED]     /data | Total round-trip: 3.987s
+23:18:10  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:18:13  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:18:15  [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:18:17  [CACHE MISS] /page2 -> Not in cache
+23:18:17  [FORWARDED] /page2 -> Sending to Load Balancer
+23:18:17  [CACHE MISS] /page3 -> Not in cache
+23:18:17  [CACHE MISS] /page4 -> Not in cache
+23:18:17  [FORWARDED] /page3 -> Sending to Load Balancer
+23:18:17  [CACHE MISS] /page6 -> Not in cache
+23:18:17  [FORWARDED] /page4 -> Sending to Load Balancer
+23:18:17  [FORWARDED] /page6 -> Sending to Load Balancer
+23:18:17  [CACHE MISS] /page5 -> Not in cache
+23:18:17  [CACHE MISS] /page1 -> Not in cache
+23:18:17  [FORWARDED] /page5 -> Sending to Load Balancer
+23:18:17  [FORWARDED] /page1 -> Sending to Load Balancer
+23:18:20  [RESPONSE RECEIVED] /page4 <- Server-8001 | 3.058s
+23:18:20  [SERVED]     /page4 | Total round-trip: 3.068s
+23:18:20  [RESPONSE RECEIVED] /page6 <- Server-8002 | 3.142s
+23:18:20  [SERVED]     /page6 | Total round-trip: 3.151s
+23:18:20  [RESPONSE RECEIVED] /page3 <- Server-8003 | 3.169s
+23:18:20  [SERVED]     /page3 | Total round-trip: 3.174s
+23:18:20  [RESPONSE RECEIVED] /page2 <- Server-8002 | 3.345s
+23:18:20  [SERVED]     /page2 | Total round-trip: 3.348s
+23:18:20  [RESPONSE RECEIVED] /page5 <- Server-8003 | 3.568s
+23:18:20  [SERVED]     /page5 | Total round-trip: 3.576s
+23:18:21  [RESPONSE RECEIVED] /page1 <- Server-8001 | 4.001s
+23:18:21  [SERVED]     /page1 | Total round-trip: 4.012s
+23:18:23  [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:18:25  [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:18:27  [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:18:29  [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:18:31  [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:18:33  [CACHE MISS] /valid/path -> Not in cache
+23:18:33  [FORWARDED] /valid/path -> Sending to Load Balancer
+23:18:37  [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.914s
+23:18:37  [SERVED]     /valid/path | Total round-trip: 3.916s
+23:18:57  [CDN] Shutting down...
+23:21:44  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:21:44  [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:21:44  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:26:59  [CDN] Shutting down...
+23:27:01  [CDN] Mini CDN started on http://0.0.0.0:9000
+23:27:01  [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:27:01  [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:29:59  [CDN] Shutting down...
+23:30:03 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:30:03 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:30:03 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:30:10 [CACHE MISS] /data -> Not in cache
+23:30:10 [FORWARDED] /data -> Sending to Load Balancer
+23:30:10 [CACHE MISS] /data -> Not in cache
+23:30:10 [WAITING]   /data -> Already being fetched, queuing...
+23:30:10 [CACHE MISS] /data -> Not in cache
+23:30:10 [WAITING]   /data -> Already being fetched, queuing...
+23:30:10 [CACHE MISS] /data -> Not in cache
+23:30:10 [CACHE MISS] /data -> Not in cache
+23:30:10 [WAITING]   /data -> Already being fetched, queuing...
+23:30:10 [WAITING]   /data -> Already being fetched, queuing...
+23:30:13 [RESPONSE RECEIVED] /data <- Server-8001 | 3.709s
+23:30:13 [CACHE SET]  /data -> Cached successfully
+23:30:13 [SERVED]     /data | Total round-trip: 3.711s
+23:30:13 [WAITING]   /data -> Got coalesced response from cache
+23:30:13 [WAITING]   /data -> Got coalesced response from cache
+23:30:13 [WAITING]   /data -> Got coalesced response from cache
+23:30:13 [WAITING]   /data -> Got coalesced response from cache
+23:30:13 [SERVED]     /data | Total round-trip: 3.710s
+23:30:13 [SERVED]     /data | Total round-trip: 3.709s
+23:30:13 [SERVED]     /data | Total round-trip: 3.707s
+23:30:13 [SERVED]     /data | Total round-trip: 3.711s
+23:30:16 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:30:18 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:30:20 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:30:22 [CACHE MISS] /page3 -> Not in cache
+23:30:22 [FORWARDED] /page3 -> Sending to Load Balancer
+23:30:22 [CACHE MISS] /page4 -> Not in cache
+23:30:22 [FORWARDED] /page4 -> Sending to Load Balancer
+23:30:22 [CACHE MISS] /page6 -> Not in cache
+23:30:22 [CACHE MISS] /page1 -> Not in cache
+23:30:22 [FORWARDED] /page6 -> Sending to Load Balancer
+23:30:22 [FORWARDED] /page1 -> Sending to Load Balancer
+23:30:22 [CACHE MISS] /page2 -> Not in cache
+23:30:22 [FORWARDED] /page2 -> Sending to Load Balancer
+23:30:22 [CACHE MISS] /page5 -> Not in cache
+23:30:22 [FORWARDED] /page5 -> Sending to Load Balancer
+23:30:25 [RESPONSE RECEIVED] /page2 <- Server-8003 | 3.068s
+23:30:25 [CACHE SET]  /page2 -> Cached successfully
+23:30:25 [SERVED]     /page2 | Total round-trip: 3.074s
+23:30:25 [RESPONSE RECEIVED] /page5 <- Server-8001 | 3.080s
+23:30:25 [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.097s
+23:30:25 [CACHE SET]  /page5 -> Cached successfully
+23:30:25 [CACHE SET]  /page3 -> Cached successfully
+23:30:25 [SERVED]     /page5 | Total round-trip: 3.090s
+23:30:25 [SERVED]     /page3 | Total round-trip: 3.103s
+23:30:25 [RESPONSE RECEIVED] /page1 <- Server-8002 | 3.117s
+23:30:25 [CACHE SET]  /page1 -> Cached successfully
+23:30:25 [SERVED]     /page1 | Total round-trip: 3.123s
+23:30:26 [RESPONSE RECEIVED] /page6 <- Server-8001 | 3.508s
+23:30:26 [CACHE SET]  /page6 -> Cached successfully
+23:30:26 [SERVED]     /page6 | Total round-trip: 3.514s
+23:30:26 [RESPONSE RECEIVED] /page4 <- Server-8003 | 3.573s
+23:30:26 [CACHE SET]  /page4 -> Cached successfully
+23:30:26 [SERVED]     /page4 | Total round-trip: 3.576s
+23:30:28 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:30:30 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:30:32 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:30:34 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:30:36 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:30:38 [CACHE MISS] /valid/path -> Not in cache
+23:30:38 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:30:41 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.045s
+23:30:41 [CACHE SET]  /valid/path -> Cached successfully
+23:30:41 [SERVED]     /valid/path | Total round-trip: 3.047s
+23:31:37 [CDN] Shutting down...
+23:31:40 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:31:40 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:31:48 [CACHE MISS] /data -> Not in cache
+23:31:48 [FETCHER]   /data -> Becoming the designated fetcher
+23:31:48 [FORWARDED] /data -> Sending to Load Balancer
+23:31:48 [CACHE MISS] /data -> Not in cache
+23:31:48 [CACHE MISS] /data -> Not in cache
+23:31:48 [WAITING]   /data -> Already being fetched, queuing...
+23:31:48 [CACHE MISS] /data -> Not in cache
+23:31:48 [WAITING]   /data -> Already being fetched, queuing...
+23:31:48 [WAITING]   /data -> Already being fetched, queuing...
+23:31:48 [CACHE MISS] /data -> Not in cache
+23:31:48 [WAITING]   /data -> Already being fetched, queuing...
+23:31:51 [RESPONSE RECEIVED] /data <- Server-8001 | 3.107s
+23:31:51 [CACHE SET]  /data -> Cached successfully
+23:31:51 [SERVED]     /data | Total round-trip: 3.111s
+23:31:51 [WAITING]   /data -> Got coalesced response from cache
+23:31:51 [WAITING]   /data -> Got coalesced response from cache
+23:31:51 [WAITING]   /data -> Got coalesced response from cache
+23:31:51 [WAITING]   /data -> Got coalesced response from cache
+23:31:51 [SERVED]     /data | Total round-trip: 3.109s
+23:31:51 [SERVED]     /data | Total round-trip: 3.109s
+23:31:51 [SERVED]     /data | Total round-trip: 3.105s
+23:31:51 [SERVED]     /data | Total round-trip: 3.113s
+23:31:54 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:31:56 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:31:58 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:32:00 [CACHE MISS] /page3 -> Not in cache
+23:32:00 [FETCHER]   /page3 -> Becoming the designated fetcher
+23:32:00 [CACHE MISS] /page2 -> Not in cache
+23:32:00 [FORWARDED] /page3 -> Sending to Load Balancer
+23:32:00 [FETCHER]   /page2 -> Becoming the designated fetcher
+23:32:00 [CACHE MISS] /page4 -> Not in cache
+23:32:00 [FORWARDED] /page2 -> Sending to Load Balancer
+23:32:00 [CACHE MISS] /page1 -> Not in cache
+23:32:00 [FETCHER]   /page4 -> Becoming the designated fetcher
+23:32:00 [CACHE MISS] /page5 -> Not in cache
+23:32:00 [FORWARDED] /page4 -> Sending to Load Balancer
+23:32:00 [FETCHER]   /page1 -> Becoming the designated fetcher
+23:32:00 [CACHE MISS] /page6 -> Not in cache
+23:32:00 [FORWARDED] /page1 -> Sending to Load Balancer
+23:32:00 [FETCHER]   /page5 -> Becoming the designated fetcher
+23:32:00 [FORWARDED] /page5 -> Sending to Load Balancer
+23:32:00 [FETCHER]   /page6 -> Becoming the designated fetcher
+23:32:00 [FORWARDED] /page6 -> Sending to Load Balancer
+23:32:03 [RESPONSE RECEIVED] /page4 <- Server-8001 | 3.157s
+23:32:03 [RESPONSE RECEIVED] /page6 <- Server-8001 | 3.151s
+23:32:03 [CACHE SET]  /page4 -> Cached successfully
+23:32:03 [CACHE SET]  /page6 -> Cached successfully
+23:32:03 [SERVED]     /page4 | Total round-trip: 3.169s
+23:32:03 [SERVED]     /page6 | Total round-trip: 3.161s
+23:32:03 [RESPONSE RECEIVED] /page5 <- Server-8003 | 3.329s
+23:32:03 [CACHE SET]  /page5 -> Cached successfully
+23:32:03 [SERVED]     /page5 | Total round-trip: 3.338s
+23:32:03 [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.448s
+23:32:03 [CACHE SET]  /page3 -> Cached successfully
+23:32:03 [SERVED]     /page3 | Total round-trip: 3.451s
+23:32:03 [RESPONSE RECEIVED] /page2 <- Server-8003 | 3.597s
+23:32:03 [CACHE SET]  /page2 -> Cached successfully
+23:32:03 [SERVED]     /page2 | Total round-trip: 3.603s
+23:32:03 [RESPONSE RECEIVED] /page1 <- Server-8002 | 3.651s
+23:32:03 [CACHE SET]  /page1 -> Cached successfully
+23:32:03 [SERVED]     /page1 | Total round-trip: 3.662s
+23:32:05 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:32:07 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:32:09 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:32:11 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:32:14 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:32:16 [CACHE MISS] /valid/path -> Not in cache
+23:32:16 [FETCHER]   /valid/path -> Becoming the designated fetcher
+23:32:16 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:32:19 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.217s
+23:32:19 [CACHE SET]  /valid/path -> Cached successfully
+23:32:19 [SERVED]     /valid/path | Total round-trip: 3.222s
+23:32:35 [CDN] Shutting down...
+23:33:27 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:33:27 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:33:27 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:33:36 [CACHE MISS] /data -> Not in cache
+23:33:36 [FETCHER]   /data -> Becoming the designated fetcher
+23:33:36 [CACHE MISS] /data -> Not in cache
+23:33:36 [FORWARDED] /data -> Sending to Load Balancer
+23:33:36 [WAITING]   /data -> Already being fetched, queuing...
+23:33:36 [CACHE MISS] /data -> Not in cache
+23:33:36 [CACHE MISS] /data -> Not in cache
+23:33:36 [WAITING]   /data -> Already being fetched, queuing...
+23:33:36 [CACHE MISS] /data -> Not in cache
+23:33:36 [WAITING]   /data -> Already being fetched, queuing...
+23:33:36 [WAITING]   /data -> Already being fetched, queuing...
+23:33:39 [RESPONSE RECEIVED] /data <- Server-8001 | 3.141s
+23:33:39 [CACHE SET]  /data -> Cached successfully
+23:33:39 [SERVED]     /data | Total round-trip: 3.145s
+23:33:39 [WAITING]   /data -> Got coalesced response from cache
+23:33:39 [WAITING]   /data -> Got coalesced response from cache
+23:33:39 [WAITING]   /data -> Got coalesced response from cache
+23:33:39 [WAITING]   /data -> Got coalesced response from cache
+23:33:39 [SERVED]     /data | Total round-trip: 3.145s
+23:33:39 [SERVED]     /data | Total round-trip: 3.133s
+23:33:39 [SERVED]     /data | Total round-trip: 3.128s
+23:33:39 [SERVED]     /data | Total round-trip: 3.144s
+23:33:42 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:33:44 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:33:46 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:33:48 [CACHE MISS] /page5 -> Not in cache
+23:33:48 [FETCHER]   /page5 -> Becoming the designated fetcher
+23:33:48 [CACHE MISS] /page2 -> Not in cache
+23:33:48 [FORWARDED] /page5 -> Sending to Load Balancer
+23:33:48 [FETCHER]   /page2 -> Becoming the designated fetcher
+23:33:48 [CACHE MISS] /page6 -> Not in cache
+23:33:48 [FORWARDED] /page2 -> Sending to Load Balancer
+23:33:48 [FETCHER]   /page6 -> Becoming the designated fetcher
+23:33:48 [CACHE MISS] /page4 -> Not in cache
+23:33:48 [FORWARDED] /page6 -> Sending to Load Balancer
+23:33:48 [CACHE MISS] /page3 -> Not in cache
+23:33:48 [FETCHER]   /page4 -> Becoming the designated fetcher
+23:33:48 [FORWARDED] /page4 -> Sending to Load Balancer
+23:33:48 [FETCHER]   /page3 -> Becoming the designated fetcher
+23:33:48 [CACHE MISS] /page1 -> Not in cache
+23:33:48 [FORWARDED] /page3 -> Sending to Load Balancer
+23:33:48 [FETCHER]   /page1 -> Becoming the designated fetcher
+23:33:48 [FORWARDED] /page1 -> Sending to Load Balancer
+23:33:51 [RESPONSE RECEIVED] /page5 <- Server-8002 | 3.092s
+23:33:51 [CACHE SET]  /page5 -> Cached successfully
+23:33:51 [SERVED]     /page5 | Total round-trip: 3.096s
+23:33:51 [RESPONSE RECEIVED] /page6 <- Server-8001 | 3.722s
+23:33:51 [CACHE SET]  /page6 -> Cached successfully
+23:33:51 [SERVED]     /page6 | Total round-trip: 3.730s
+23:33:52 [RESPONSE RECEIVED] /page1 <- Server-8001 | 3.809s
+23:33:52 [CACHE SET]  /page1 -> Cached successfully
+23:33:52 [SERVED]     /page1 | Total round-trip: 3.814s
+23:33:52 [RESPONSE RECEIVED] /page3 <- Server-8003 | 3.842s
+23:33:52 [CACHE SET]  /page3 -> Cached successfully
+23:33:52 [SERVED]     /page3 | Total round-trip: 3.850s
+23:33:52 [RESPONSE RECEIVED] /page2 <- Server-8003 | 4.000s
+23:33:52 [CACHE SET]  /page2 -> Cached successfully
+23:33:52 [SERVED]     /page2 | Total round-trip: 4.005s
+23:33:52 [RESPONSE RECEIVED] /page4 <- Server-8002 | 3.996s
+23:33:52 [CACHE SET]  /page4 -> Cached successfully
+23:33:52 [SERVED]     /page4 | Total round-trip: 4.005s
+23:33:54 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:33:56 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:33:58 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:34:00 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:34:02 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:34:04 [CACHE MISS] /valid/path -> Not in cache
+23:34:04 [FETCHER]   /valid/path -> Becoming the designated fetcher
+23:34:04 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:34:08 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.686s
+23:34:08 [CACHE SET]  /valid/path -> Cached successfully
+23:34:08 [SERVED]     /valid/path | Total round-trip: 3.690s
+23:34:19 [CDN] Shutting down...
+23:35:53 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:35:53 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:35:53 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:35:59 [CACHE MISS] /data -> Not in cache
+23:35:59 [FETCHER]   /data -> Becoming the designated fetcher
+23:35:59 [CACHE MISS] /data -> Not in cache
+23:35:59 [FORWARDED] /data -> Sending to Load Balancer
+23:35:59 [WAITING]   /data -> Already being fetched, queuing...
+23:35:59 [CACHE MISS] /data -> Not in cache
+23:35:59 [WAITING]   /data -> Already being fetched, queuing...
+23:35:59 [CACHE MISS] /data -> Not in cache
+23:35:59 [WAITING]   /data -> Already being fetched, queuing...
+23:35:59 [CACHE MISS] /data -> Not in cache
+23:35:59 [WAITING]   /data -> Already being fetched, queuing...
+23:36:02 [RESPONSE RECEIVED] /data <- Server-8001 | 3.307s
+23:36:02 [CACHE SET]  /data -> Cached successfully
+23:36:02 [SERVED]     /data | Total round-trip: 3.310s
+23:36:02 [WAITING]   /data -> Got coalesced response from cache
+23:36:02 [WAITING]   /data -> Got coalesced response from cache
+23:36:02 [WAITING]   /data -> Got coalesced response from cache
+23:36:02 [WAITING]   /data -> Got coalesced response from cache
+23:36:02 [SERVED]     /data | Total round-trip: 3.309s
+23:36:02 [SERVED]     /data | Total round-trip: 3.306s
+23:36:02 [SERVED]     /data | Total round-trip: 3.306s
+23:36:02 [SERVED]     /data | Total round-trip: 3.309s
+23:36:05 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:36:07 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:36:09 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:36:11 [CACHE MISS] /page6 -> Not in cache
+23:36:11 [FETCHER]   /page6 -> Becoming the designated fetcher
+23:36:11 [CACHE MISS] /page4 -> Not in cache
+23:36:11 [FORWARDED] /page6 -> Sending to Load Balancer
+23:36:11 [FETCHER]   /page4 -> Becoming the designated fetcher
+23:36:11 [CACHE MISS] /page5 -> Not in cache
+23:36:11 [FORWARDED] /page4 -> Sending to Load Balancer
+23:36:11 [FETCHER]   /page5 -> Becoming the designated fetcher
+23:36:11 [FORWARDED] /page5 -> Sending to Load Balancer
+23:36:11 [CACHE MISS] /page1 -> Not in cache
+23:36:11 [CACHE MISS] /page2 -> Not in cache
+23:36:11 [FETCHER]   /page1 -> Becoming the designated fetcher
+23:36:11 [CACHE MISS] /page3 -> Not in cache
+23:36:11 [FORWARDED] /page1 -> Sending to Load Balancer
+23:36:11 [FETCHER]   /page2 -> Becoming the designated fetcher
+23:36:11 [FORWARDED] /page2 -> Sending to Load Balancer
+23:36:11 [FETCHER]   /page3 -> Becoming the designated fetcher
+23:36:11 [FORWARDED] /page3 -> Sending to Load Balancer
+23:36:14 [RESPONSE RECEIVED] /page3 <- Server-8001 | 3.119s
+23:36:14 [CACHE SET]  /page3 -> Cached successfully
+23:36:14 [SERVED]     /page3 | Total round-trip: 3.126s
+23:36:14 [RESPONSE RECEIVED] /page5 <- Server-8001 | 3.226s
+23:36:14 [CACHE SET]  /page5 -> Cached successfully
+23:36:14 [SERVED]     /page5 | Total round-trip: 3.232s
+23:36:14 [RESPONSE RECEIVED] /page6 <- Server-8002 | 3.286s
+23:36:14 [CACHE SET]  /page6 -> Cached successfully
+23:36:14 [SERVED]     /page6 | Total round-trip: 3.289s
+23:36:14 [RESPONSE RECEIVED] /page4 <- Server-8003 | 3.393s
+23:36:14 [CACHE SET]  /page4 -> Cached successfully
+23:36:14 [SERVED]     /page4 | Total round-trip: 3.399s
+23:36:14 [RESPONSE RECEIVED] /page2 <- Server-8003 | 3.453s
+23:36:14 [CACHE SET]  /page2 -> Cached successfully
+23:36:14 [SERVED]     /page2 | Total round-trip: 3.458s
+23:36:14 [RESPONSE RECEIVED] /page1 <- Server-8002 | 3.517s
+23:36:14 [CACHE SET]  /page1 -> Cached successfully
+23:36:14 [SERVED]     /page1 | Total round-trip: 3.521s
+23:36:16 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:36:18 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:36:20 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:36:22 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:36:24 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:36:27 [CACHE MISS] /valid/path -> Not in cache
+23:36:27 [FETCHER]   /valid/path -> Becoming the designated fetcher
+23:36:27 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:36:30 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.197s
+23:36:30 [CACHE SET]  /valid/path -> Cached successfully
+23:36:30 [SERVED]     /valid/path | Total round-trip: 3.199s
+23:37:01 [CDN] Shutting down...
+23:37:44 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:37:44 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:37:44 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:37:49 [CACHE MISS] /data -> Not in cache
+23:37:49 [FETCHER]   /data -> Becoming the designated fetcher
+23:37:49 [CACHE MISS] /data -> Not in cache
+23:37:49 [FORWARDED] /data -> Sending to Load Balancer
+23:37:49 [WAITING]   /data -> Already being fetched, queuing...
+23:37:49 [CACHE MISS] /data -> Not in cache
+23:37:49 [WAITING]   /data -> Already being fetched, queuing...
+23:37:49 [CACHE MISS] /data -> Not in cache
+23:37:49 [WAITING]   /data -> Already being fetched, queuing...
+23:37:49 [CACHE MISS] /data -> Not in cache
+23:37:49 [WAITING]   /data -> Already being fetched, queuing...
+23:37:53 [RESPONSE RECEIVED] /data <- Server-8001 | 3.859s
+23:37:53 [CACHE SET]  /data -> Cached successfully
+23:37:53 [SERVED]     /data | Total round-trip: 3.862s
+23:37:53 [WAITING]   /data -> Got coalesced response from cache
+23:37:53 [WAITING]   /data -> Got coalesced response from cache
+23:37:53 [WAITING]   /data -> Got coalesced response from cache
+23:37:53 [WAITING]   /data -> Got coalesced response from cache
+23:37:53 [SERVED]     /data | Total round-trip: 3.860s
+23:37:53 [SERVED]     /data | Total round-trip: 3.862s
+23:37:53 [SERVED]     /data | Total round-trip: 3.859s
+23:37:53 [SERVED]     /data | Total round-trip: 3.858s
+23:37:56 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:37:58 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:38:00 [CACHE HIT]  /data -> Served from cache | Total: 0.000s
+23:38:02 [CACHE MISS] /page6 -> Not in cache
+23:38:02 [FETCHER]   /page6 -> Becoming the designated fetcher
+23:38:02 [CACHE MISS] /page4 -> Not in cache
+23:38:02 [FORWARDED] /page6 -> Sending to Load Balancer
+23:38:02 [CACHE MISS] /page2 -> Not in cache
+23:38:02 [FETCHER]   /page4 -> Becoming the designated fetcher
+23:38:02 [CACHE MISS] /page5 -> Not in cache
+23:38:02 [FORWARDED] /page4 -> Sending to Load Balancer
+23:38:02 [FETCHER]   /page2 -> Becoming the designated fetcher
+23:38:02 [CACHE MISS] /page3 -> Not in cache
+23:38:02 [FETCHER]   /page5 -> Becoming the designated fetcher
+23:38:02 [FORWARDED] /page2 -> Sending to Load Balancer
+23:38:02 [CACHE MISS] /page1 -> Not in cache
+23:38:02 [FORWARDED] /page5 -> Sending to Load Balancer
+23:38:02 [FETCHER]   /page3 -> Becoming the designated fetcher
+23:38:02 [FORWARDED] /page3 -> Sending to Load Balancer
+23:38:02 [FETCHER]   /page1 -> Becoming the designated fetcher
+23:38:02 [FORWARDED] /page1 -> Sending to Load Balancer
+23:38:05 [RESPONSE RECEIVED] /page6 <- Server-8002 | 3.230s
+23:38:05 [CACHE SET]  /page6 -> Cached successfully
+23:38:05 [SERVED]     /page6 | Total round-trip: 3.239s
+23:38:05 [RESPONSE RECEIVED] /page4 <- Server-8003 | 3.239s
+23:38:05 [CACHE SET]  /page4 -> Cached successfully
+23:38:05 [SERVED]     /page4 | Total round-trip: 3.251s
+23:38:05 [RESPONSE RECEIVED] /page5 <- Server-8002 | 3.629s
+23:38:05 [CACHE SET]  /page5 -> Cached successfully
+23:38:05 [SERVED]     /page5 | Total round-trip: 3.639s
+23:38:05 [RESPONSE RECEIVED] /page3 <- Server-8003 | 3.651s
+23:38:05 [CACHE SET]  /page3 -> Cached successfully
+23:38:05 [SERVED]     /page3 | Total round-trip: 3.662s
+23:38:06 [RESPONSE RECEIVED] /page2 <- Server-8001 | 3.690s
+23:38:06 [RESPONSE RECEIVED] /page1 <- Server-8001 | 3.690s
+23:38:06 [CACHE SET]  /page2 -> Cached successfully
+23:38:06 [CACHE SET]  /page1 -> Cached successfully
+23:38:06 [SERVED]     /page2 | Total round-trip: 3.710s
+23:38:06 [SERVED]     /page1 | Total round-trip: 3.704s
+23:38:08 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:38:10 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:38:12 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:38:14 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:38:16 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:38:18 [CACHE MISS] /valid/path -> Not in cache
+23:38:18 [FETCHER]   /valid/path -> Becoming the designated fetcher
+23:38:18 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:38:21 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.017s
+23:38:21 [CACHE SET]  /valid/path -> Cached successfully
+23:38:21 [SERVED]     /valid/path | Total round-trip: 3.019s
+23:47:56 [CDN] Shutting down...
+23:48:00 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:48:00 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:48:00 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:48:05 [FORWARDED] /data -> Sending to Load Balancer
+23:48:05 [ERROR] Failed to serve /data: cannot wait on un-acquired lock
+23:48:05 [ERROR] Failed to serve /data: cannot wait on un-acquired lock
+23:48:05 [ERROR] Failed to serve /data: cannot wait on un-acquired lock
+23:48:05 [ERROR] Failed to serve /data: cannot wait on un-acquired lock
+23:48:09 [RESPONSE RECEIVED] /data <- Server-8001 | 3.538s
+23:48:09 [CACHE SET]  /data -> Cached successfully
+23:48:09 [SERVED] /data from backend | Total: 3.540s
+23:48:12 [CACHE HIT] /data
+23:48:12 [SERVED] /data from cache | Total: 0.001s
+23:48:14 [CACHE HIT] /data
+23:48:14 [SERVED] /data from cache | Total: 0.000s
+23:48:16 [CACHE HIT] /data
+23:48:16 [SERVED] /data from cache | Total: 0.001s
+23:48:18 [FORWARDED] /page4 -> Sending to Load Balancer
+23:48:18 [FORWARDED] /page3 -> Sending to Load Balancer
+23:48:18 [FORWARDED] /page2 -> Sending to Load Balancer
+23:48:18 [FORWARDED] /page1 -> Sending to Load Balancer
+23:48:18 [FORWARDED] /page5 -> Sending to Load Balancer
+23:48:18 [FORWARDED] /page6 -> Sending to Load Balancer
+23:48:21 [RESPONSE RECEIVED] /page3 <- Server-8003 | 3.132s
+23:48:21 [CACHE SET]  /page3 -> Cached successfully
+23:48:21 [SERVED] /page3 from backend | Total: 3.135s
+23:48:21 [RESPONSE RECEIVED] /page1 <- Server-8002 | 3.134s
+23:48:21 [CACHE SET]  /page1 -> Cached successfully
+23:48:21 [SERVED] /page1 from backend | Total: 3.146s
+23:48:21 [RESPONSE RECEIVED] /page2 <- Server-8001 | 3.156s
+23:48:21 [CACHE SET]  /page2 -> Cached successfully
+23:48:21 [SERVED] /page2 from backend | Total: 3.169s
+23:48:21 [RESPONSE RECEIVED] /page6 <- Server-8001 | 3.188s
+23:48:21 [CACHE SET]  /page6 -> Cached successfully
+23:48:21 [SERVED] /page6 from backend | Total: 3.191s
+23:48:21 [RESPONSE RECEIVED] /page5 <- Server-8003 | 3.342s
+23:48:21 [CACHE SET]  /page5 -> Cached successfully
+23:48:21 [SERVED] /page5 from backend | Total: 3.346s
+23:48:22 [RESPONSE RECEIVED] /page4 <- Server-8002 | 3.856s
+23:48:22 [CACHE SET]  /page4 -> Cached successfully
+23:48:22 [SERVED] /page4 from backend | Total: 3.859s
+23:48:24 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:48:26 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:48:28 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:48:30 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:48:32 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:48:34 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:48:38 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.771s
+23:48:38 [CACHE SET]  /valid/path -> Cached successfully
+23:48:38 [SERVED] /valid/path from backend | Total: 3.772s
+23:48:51 [CDN] Shutting down...
+23:51:49 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:51:49 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:51:49 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:51:54 [FORWARDED] /data -> Sending to Load Balancer
+23:51:58 [RESPONSE RECEIVED] /data <- Server-8001 | 3.488s
+23:51:58 [CACHE SET]  /data -> Cached successfully
+23:52:24 [COALESCED] /data waited 30.017s
+23:52:24 [SERVED] /data (coalesced) | Total: 30.019s
+23:52:27 [CACHE HIT] /data
+23:52:27 [SERVED] /data from cache | Total: 0.001s
+23:52:29 [CACHE HIT] /data
+23:52:29 [SERVED] /data from cache | Total: 0.000s
+23:52:31 [CACHE HIT] /data
+23:52:31 [SERVED] /data from cache | Total: 0.001s
+23:52:54 [COALESCED] /data waited 30.016s
+23:52:54 [SERVED] /data (coalesced) | Total: 60.036s
+23:53:05 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:53:07 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:53:09 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:53:11 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:53:13 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:53:54 [SERVED] /data from backend | Total: 120.047s
+23:53:54 [FORWARDED] /page1 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /page4 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /page2 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /page6 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /page3 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /page5 -> Sending to Load Balancer
+23:53:54 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:53:56 [CDN] Shutting down...
+23:56:08 [CDN] Mini CDN started on http://0.0.0.0:9000
+23:56:08 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+23:56:08 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+23:56:14 [FORWARDED] /data -> Sending to Load Balancer
+23:56:17 [RESPONSE RECEIVED] /data <- Server-8001 | 3.345s
+23:56:17 [CACHE SET]  /data -> Cached successfully
+23:56:17 [SERVED] /data from backend | Total: 3.347s
+23:56:17 [COALESCED] /data waited 3.345s
+23:56:17 [COALESCED] /data waited 3.343s
+23:56:17 [SERVED] /data (coalesced) | Total: 3.344s
+23:56:17 [COALESCED] /data waited 3.344s
+23:56:17 [SERVED] /data (coalesced) | Total: 3.345s
+23:56:17 [COALESCED] /data waited 3.342s
+23:56:17 [SERVED] /data (coalesced) | Total: 3.346s
+23:56:17 [SERVED] /data (coalesced) | Total: 3.349s
+23:56:20 [CACHE HIT] /data
+23:56:20 [SERVED] /data from cache | Total: 0.000s
+23:56:22 [CACHE HIT] /data
+23:56:22 [SERVED] /data from cache | Total: 0.001s
+23:56:24 [CACHE HIT] /data
+23:56:24 [SERVED] /data from cache | Total: 0.000s
+23:56:26 [FORWARDED] /page5 -> Sending to Load Balancer
+23:56:26 [FORWARDED] /page6 -> Sending to Load Balancer
+23:56:26 [FORWARDED] /page4 -> Sending to Load Balancer
+23:56:26 [FORWARDED] /page3 -> Sending to Load Balancer
+23:56:26 [FORWARDED] /page1 -> Sending to Load Balancer
+23:56:26 [FORWARDED] /page2 -> Sending to Load Balancer
+23:56:29 [RESPONSE RECEIVED] /page6 <- Server-8003 | 3.246s
+23:56:29 [CACHE SET]  /page6 -> Cached successfully
+23:56:29 [SERVED] /page6 from backend | Total: 3.251s
+23:56:29 [RESPONSE RECEIVED] /page4 <- Server-8001 | 3.287s
+23:56:29 [CACHE SET]  /page4 -> Cached successfully
+23:56:29 [SERVED] /page4 from backend | Total: 3.290s
+23:56:29 [RESPONSE RECEIVED] /page5 <- Server-8002 | 3.349s
+23:56:29 [RESPONSE RECEIVED] /page1 <- Server-8003 | 3.316s
+23:56:29 [CACHE SET]  /page5 -> Cached successfully
+23:56:29 [CACHE SET]  /page1 -> Cached successfully
+23:56:29 [SERVED] /page5 from backend | Total: 3.353s
+23:56:29 [SERVED] /page1 from backend | Total: 3.319s
+23:56:30 [RESPONSE RECEIVED] /page2 <- Server-8001 | 3.632s
+23:56:30 [CACHE SET]  /page2 -> Cached successfully
+23:56:30 [SERVED] /page2 from backend | Total: 3.634s
+23:56:30 [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.960s
+23:56:30 [CACHE SET]  /page3 -> Cached successfully
+23:56:30 [SERVED] /page3 from backend | Total: 3.964s
+23:56:32 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+23:56:34 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+23:56:36 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+23:56:38 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+23:56:40 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+23:56:42 [FORWARDED] /valid/path -> Sending to Load Balancer
+23:56:46 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.556s
+23:56:46 [CACHE SET]  /valid/path -> Cached successfully
+23:56:46 [SERVED] /valid/path from backend | Total: 3.558s
+23:57:00 [CDN] Shutting down...
+00:03:50 [CDN] Mini CDN started on http://0.0.0.0:9000
+00:03:50 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+00:03:50 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+00:03:50 [CDN] Thread pool size: 10
+00:03:57 [FORWARDED] /data -> Sending to Load Balancer
+00:04:00 [RESPONSE RECEIVED] /data <- Server-8001 | 3.292s
+00:04:00 [CACHE SET]  /data -> Cached successfully
+00:04:00 [SERVED] /data from backend | Total: 3.294s
+00:04:00 [COALESCED] /data waited 3.292s
+00:04:00 [COALESCED] /data waited 3.289s
+00:04:00 [COALESCED] /data waited 3.288s
+00:04:00 [COALESCED] /data waited 3.291s
+00:04:00 [SERVED] /data (coalesced) | Total: 3.293s
+00:04:00 [SERVED] /data (coalesced) | Total: 3.290s
+00:04:00 [SERVED] /data (coalesced) | Total: 3.289s
+00:04:00 [SERVED] /data (coalesced) | Total: 3.293s
+00:04:03 [CACHE HIT] /data
+00:04:03 [SERVED] /data from cache | Total: 0.001s
+00:04:05 [CACHE HIT] /data
+00:04:05 [SERVED] /data from cache | Total: 0.000s
+00:04:07 [CACHE HIT] /data
+00:04:07 [SERVED] /data from cache | Total: 0.000s
+00:04:09 [FORWARDED] /page4 -> Sending to Load Balancer
+00:04:09 [FORWARDED] /page5 -> Sending to Load Balancer
+00:04:09 [FORWARDED] /page6 -> Sending to Load Balancer
+00:04:09 [FORWARDED] /page3 -> Sending to Load Balancer
+00:04:09 [FORWARDED] /page1 -> Sending to Load Balancer
+00:04:09 [FORWARDED] /page2 -> Sending to Load Balancer
+00:04:12 [RESPONSE RECEIVED] /page2 <- Server-8001 | 3.081s
+00:04:12 [CACHE SET]  /page2 -> Cached successfully
+00:04:12 [SERVED] /page2 from backend | Total: 3.090s
+00:04:12 [RESPONSE RECEIVED] /page6 <- Server-8001 | 3.213s
+00:04:12 [CACHE SET]  /page6 -> Cached successfully
+00:04:12 [SERVED] /page6 from backend | Total: 3.221s
+00:04:12 [RESPONSE RECEIVED] /page4 <- Server-8002 | 3.515s
+00:04:12 [CACHE SET]  /page4 -> Cached successfully
+00:04:12 [SERVED] /page4 from backend | Total: 3.518s
+00:04:12 [RESPONSE RECEIVED] /page1 <- Server-8003 | 3.529s
+00:04:12 [CACHE SET]  /page1 -> Cached successfully
+00:04:12 [SERVED] /page1 from backend | Total: 3.541s
+00:04:13 [RESPONSE RECEIVED] /page3 <- Server-8002 | 3.887s
+00:04:13 [CACHE SET]  /page3 -> Cached successfully
+00:04:13 [SERVED] /page3 from backend | Total: 3.898s
+00:04:13 [RESPONSE RECEIVED] /page5 <- Server-8003 | 3.921s
+00:04:13 [CACHE SET]  /page5 -> Cached successfully
+00:04:13 [SERVED] /page5 from backend | Total: 3.923s
+00:04:15 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+00:04:17 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+00:04:19 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+00:04:21 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+00:04:23 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+00:04:25 [FORWARDED] /valid/path -> Sending to Load Balancer
+00:04:29 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.673s
+00:04:29 [CACHE SET]  /valid/path -> Cached successfully
+00:04:29 [SERVED] /valid/path from backend | Total: 3.677s
+00:04:46 [CDN] Shutting down...
+00:11:47 [CDN] Mini CDN started on http://0.0.0.0:9000
+00:11:47 [CDN] Cache TTL: 60s | Rate limit: 20 req/10s
+00:11:47 [CDN] Backend pool: ['http://localhost:8001', 'http://localhost:8002', 'http://localhost:8003']
+00:11:47 [CDN] Thread pool size: 10
+00:11:53 [FORWARDED] /data -> Sending to Load Balancer
+00:11:57 [RESPONSE RECEIVED] /data <- Server-8001 | 3.256s
+00:11:57 [CACHE SET]  /data -> Cached successfully
+00:11:57 [SERVED] /data from backend | Total: 3.258s
+00:11:57 [COALESCED] /data waited 3.256s
+00:11:57 [COALESCED] /data waited 3.254s
+00:11:57 [SERVED] /data (coalesced) | Total: 3.255s
+00:11:57 [COALESCED] /data waited 3.255s
+00:11:57 [SERVED] /data (coalesced) | Total: 3.258s
+00:11:57 [COALESCED] /data waited 3.253s
+00:11:57 [SERVED] /data (coalesced) | Total: 3.257s
+00:11:57 [SERVED] /data (coalesced) | Total: 3.259s
+00:11:59 [CACHE HIT] /data
+00:11:59 [SERVED] /data from cache | Total: 0.001s
+00:12:01 [CACHE HIT] /data
+00:12:01 [SERVED] /data from cache | Total: 0.001s
+00:12:03 [CACHE HIT] /data
+00:12:03 [SERVED] /data from cache | Total: 0.000s
+00:12:05 [FORWARDED] /page2 -> Sending to Load Balancer
+00:12:05 [FORWARDED] /page1 -> Sending to Load Balancer
+00:12:05 [FORWARDED] /page4 -> Sending to Load Balancer
+00:12:05 [FORWARDED] /page6 -> Sending to Load Balancer
+00:12:05 [FORWARDED] /page3 -> Sending to Load Balancer
+00:12:05 [FORWARDED] /page5 -> Sending to Load Balancer
+00:12:09 [RESPONSE RECEIVED] /page4 <- Server-8001 | 3.621s
+00:12:09 [CACHE SET]  /page4 -> Cached successfully
+00:12:09 [SERVED] /page4 from backend | Total: 3.625s
+00:12:09 [RESPONSE RECEIVED] /page3 <- Server-8003 | 3.714s
+00:12:09 [CACHE SET]  /page3 -> Cached successfully
+00:12:09 [SERVED] /page3 from backend | Total: 3.717s
+00:12:09 [RESPONSE RECEIVED] /page1 <- Server-8003 | 3.744s
+00:12:09 [CACHE SET]  /page1 -> Cached successfully
+00:12:09 [SERVED] /page1 from backend | Total: 3.748s
+00:12:09 [RESPONSE RECEIVED] /page6 <- Server-8002 | 3.744s
+00:12:09 [CACHE SET]  /page6 -> Cached successfully
+00:12:09 [SERVED] /page6 from backend | Total: 3.749s
+00:12:09 [RESPONSE RECEIVED] /page5 <- Server-8001 | 3.791s
+00:12:09 [CACHE SET]  /page5 -> Cached successfully
+00:12:09 [SERVED] /page5 from backend | Total: 3.795s
+00:12:09 [RESPONSE RECEIVED] /page2 <- Server-8002 | 3.958s
+00:12:09 [CACHE SET]  /page2 -> Cached successfully
+00:12:09 [SERVED] /page2 from backend | Total: 3.960s
+00:12:11 [BLOCKED]    127.0.0.1 invalid path: /etc/passwd
+00:12:13 [BLOCKED]    127.0.0.1 invalid path: /etc/shadow
+00:12:15 [BLOCKED]    127.0.0.1 invalid path: /windows/system32/cmd
+00:12:18 [BLOCKED]    127.0.0.1 invalid path: /bad path with spaces
+00:12:20 [BLOCKED]    127.0.0.1 invalid path: /<script>alert(1)</script>
+00:12:22 [FORWARDED] /valid/path -> Sending to Load Balancer
+00:12:26 [RESPONSE RECEIVED] /valid/path <- Server-8002 | 3.918s
+00:12:26 [CACHE SET]  /valid/path -> Cached successfully
+00:12:26 [SERVED] /valid/path from backend | Total: 3.921s
