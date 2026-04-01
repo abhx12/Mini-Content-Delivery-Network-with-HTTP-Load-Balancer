@@ -2,11 +2,10 @@
 load_balancer.py
 ----------------
 Layer 2: HTTP Load Balancer
-- Round Robin server selection
+- Least Connections server selection ✅ (UPDATED)
 - Health checks (periodic)
 - Retry on failure
 - Request forwarding with timeout
-- Per-request logging
 """
 
 import time
@@ -14,98 +13,96 @@ import threading
 import logging
 import requests
 
-# ──────────────────────────────────────────────
-# Logging Setup
-# ──────────────────────────────────────────────
 logger = logging.getLogger("LoadBalancer")
 
 
 class LoadBalancer:
     def __init__(self, backend_servers: list[str], health_check_interval: int = 10):
-        """
-        Args:
-            backend_servers: List of backend URLs, e.g. ["http://localhost:8001", ...]
-            health_check_interval: Seconds between health checks
-        """
-        self.all_servers = list(backend_servers)          # full original list
-        self.healthy_servers = list(backend_servers)      # servers currently alive
-        self._lock = threading.Lock()                     # protects round-robin index + healthy list
-        self._rr_index = 0                               # round-robin pointer
-        self.request_timeout = 5                         # seconds to wait for backend
-        self.max_retries = 3                             # retry attempts on failure
+        self.all_servers = list(backend_servers)
+        self.healthy_servers = list(backend_servers)
 
-        # Start background health-check thread
+        self._lock = threading.Lock()
+
+        # ✅ Track active connections per server
+        self.active_connections = {server: 0 for server in backend_servers}
+
+        self.request_timeout = 5
+        self.max_retries = 3
+
+        # Health check thread
         self._health_check_interval = health_check_interval
         self._stop_event = threading.Event()
         self._health_thread = threading.Thread(
             target=self._health_check_loop, daemon=True
         )
         self._health_thread.start()
+
         logger.info(f"[LB] Initialized with servers: {self.all_servers}")
 
     # ──────────────────────────────────────────
-    # Round-Robin Server Selection
+    # ✅ LEAST CONNECTIONS SELECTION
     # ──────────────────────────────────────────
-    def _get_next_server(self) -> str | None:
-        """Return next healthy server using round-robin; None if none available."""
+    def _get_least_connection_server(self) -> str | None:
         with self._lock:
             if not self.healthy_servers:
                 return None
-            server = self.healthy_servers[self._rr_index % len(self.healthy_servers)]
-            self._rr_index = (self._rr_index + 1) % len(self.healthy_servers)
+
+            # Pick server with minimum active connections
+            server = min(
+                self.healthy_servers,
+                key=lambda s: self.active_connections.get(s, 0)
+            )
+
+            # Increment active connections
+            self.active_connections[server] += 1
+
             return server
 
+    def _release_connection(self, server: str):
+        """Decrement active connection count after request completes"""
+        with self._lock:
+            if server in self.active_connections:
+                self.active_connections[server] = max(
+                    0, self.active_connections[server] - 1
+                )
+
     # ──────────────────────────────────────────
-    # Forward Request to Backend
+    # Forward Request
     # ──────────────────────────────────────────
     def forward(self, path: str) -> dict:
-        """
-        Forward a GET request to a backend server.
-        Retries up to max_retries times on failure.
-
-        Returns:
-            dict with keys: server, status_code, body, response_time
-        Raises:
-            RuntimeError if no healthy server can fulfill the request.
-        """
         tried_servers = set()
 
         for attempt in range(1, self.max_retries + 1):
-            server = self._get_next_server()
-
-            # Skip already-tried servers when possible
-            if server in tried_servers:
-                # Try to pick a different one
-                with self._lock:
-                    remaining = [s for s in self.healthy_servers if s not in tried_servers]
-                if remaining:
-                    server = remaining[0]
-                else:
-                    break  # All servers tried
+            server = self._get_least_connection_server()
 
             if server is None:
                 raise RuntimeError("[LB] No healthy backend servers available.")
 
-            tried_servers.add(server)
-            server_label = self._server_label(server)
+            if server in tried_servers:
+                continue
 
-            logger.info(f"[LB] Forwarding {path} → {server_label} (attempt {attempt})")
+            tried_servers.add(server)
+            label = self._server_label(server)
+
+            logger.info(f"[LB] Forwarding {path} → {label} (attempt {attempt})")
 
             try:
                 start = time.time()
+
                 response = requests.get(
                     f"{server}{path}",
                     timeout=self.request_timeout
                 )
+
                 elapsed = time.time() - start
 
                 logger.info(
-                    f"[LB] Response received from {server_label} | "
-                    f"Status: {response.status_code} | Time: {elapsed:.3f}s"
+                    f"[LB] Response from {label} | "
+                    f"Status: {response.status_code} | {elapsed:.3f}s"
                 )
 
                 return {
-                    "server": server_label,
+                    "server": label,
                     "status_code": response.status_code,
                     "body": response.json(),
                     "response_time": elapsed,
@@ -113,39 +110,39 @@ class LoadBalancer:
 
             except requests.exceptions.RequestException as e:
                 logger.warning(
-                    f"[LB] {server_label} failed on attempt {attempt}: {e}. "
-                    f"Marking unhealthy and retrying..."
+                    f"[LB] {label} failed: {e}. Marking unhealthy..."
                 )
                 self._mark_unhealthy(server)
 
-        raise RuntimeError(
-            f"[LB] All retry attempts exhausted for path '{path}'."
-        )
+            finally:
+                # ✅ IMPORTANT: always release connection
+                self._release_connection(server)
+
+        raise RuntimeError(f"[LB] All retry attempts failed for '{path}'.")
 
     # ──────────────────────────────────────────
     # Health Checks
     # ──────────────────────────────────────────
     def _health_check_loop(self):
-        """Background thread: periodically ping each server."""
         while not self._stop_event.is_set():
             time.sleep(self._health_check_interval)
             self._run_health_checks()
 
     def _run_health_checks(self):
-        """Ping all known servers; restore or remove from healthy list."""
         for server in self.all_servers:
             alive = self._ping(server)
             label = self._server_label(server)
+
             with self._lock:
                 if alive and server not in self.healthy_servers:
                     self.healthy_servers.append(server)
-                    logger.info(f"[LB] [HEALTH] {label} is back ONLINE ✓")
+                    logger.info(f"[LB] {label} is ONLINE ✓")
+
                 elif not alive and server in self.healthy_servers:
                     self.healthy_servers.remove(server)
-                    logger.warning(f"[LB] [HEALTH] {label} is OFFLINE ✗")
+                    logger.warning(f"[LB] {label} is OFFLINE ✗")
 
     def _ping(self, server: str) -> bool:
-        """Return True if server responds to a quick GET /."""
         try:
             resp = requests.get(f"{server}/", timeout=2)
             return resp.status_code < 500
@@ -153,31 +150,24 @@ class LoadBalancer:
             return False
 
     def _mark_unhealthy(self, server: str):
-        """Immediately remove a server from the healthy pool."""
         with self._lock:
             if server in self.healthy_servers:
                 self.healthy_servers.remove(server)
-                logger.warning(
-                    f"[LB] {self._server_label(server)} removed from healthy pool."
-                )
+                logger.warning(f"[LB] {self._server_label(server)} removed")
 
     # ──────────────────────────────────────────
     # Helpers
     # ──────────────────────────────────────────
     def _server_label(self, server: str) -> str:
-        """Convert URL to friendly label, e.g. http://localhost:8001 → Server-8001."""
         port = server.split(":")[-1]
         return f"Server-{port}"
 
     def status(self) -> dict:
-        """Return current load balancer status."""
         with self._lock:
             return {
-                "all_servers": self.all_servers,
                 "healthy_servers": self.healthy_servers,
-                "rr_index": self._rr_index,
+                "active_connections": self.active_connections,
             }
 
     def stop(self):
-        """Stop the health-check thread."""
         self._stop_event.set()
